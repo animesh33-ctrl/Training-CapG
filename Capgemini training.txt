@@ -1,0 +1,12 @@
+1.Core Java (for problems)
+2.J2EE (for development)
+	i.JDBC
+	ii.JSP
+	iii.Servlet
+3.Hibernate/JPA
+4.Spring Core
+5.Spring MVC
+6.Spring Boot
+7.SQL
+8.Devops
+9.CI/CD pipeline
