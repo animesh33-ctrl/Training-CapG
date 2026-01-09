@@ -1,0 +1,22 @@
+package Conditional;
+
+public class SwitchCase2 {
+	public static void main(String[] args) {
+		String operator = "Thu";
+		
+		switch(operator) {
+		case("Mon"):
+		case("Thu"):
+		case("Wed"):
+			System.out.println("English!!");
+			break;
+		case("Tue"):
+		case("Sat"):
+			System.out.println("Java");
+			break;
+			
+		default:
+			System.out.println("Enjoy!!!");
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package Operator_Assignment;
+
+public class Q2 {
+	public static void main(String[] args) {
+		int inp = 1;
+		if(inp>=-9 && inp <=9) {
+			System.out.println("Digit");
+		}
+		else {
+			System.out.println("Number");
+		}
+	}
+}

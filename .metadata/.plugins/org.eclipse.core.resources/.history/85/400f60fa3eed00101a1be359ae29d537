@@ -1,0 +1,20 @@
+package LoopAssignment;
+
+import java.util.Scanner;
+
+//count even and odd digits in a number
+public class q2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int even=0,odd=0;
+		while(n>0) {
+			int ld = n%10;
+			if((ld &1)==0) {
+				even++;
+			}
+			else odd++;
+			n/=10;
+		}
+	}
+}

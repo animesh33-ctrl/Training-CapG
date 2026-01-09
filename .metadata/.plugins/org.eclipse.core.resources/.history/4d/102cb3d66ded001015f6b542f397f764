@@ -1,0 +1,14 @@
+package LoopAssignment;
+//print odd numbers from n1 to n2
+public class q6 {
+	public static void main(String[] args) {
+		int n1 = -9;
+		int n2 = 9;
+		while(n2>=n1) {
+			if(n1%2==0) {
+				System.out.println(n1);
+			}
+			n1++;
+		}
+	}
+}
