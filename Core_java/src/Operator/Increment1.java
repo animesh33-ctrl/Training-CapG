@@ -1,0 +1,13 @@
+package Operator;
+
+public class Increment1 {
+	public static void main(String[] args) {
+		int a=5,b=3;
+		a++;
+		++a;
+		b++;
+		++b;
+		int c = a + b + ++a + b++;
+		System.out.println(a+ ++c + b++ +c);
+	}
+}

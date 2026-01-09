@@ -1,0 +1,13 @@
+package Operator;
+
+import java.util.Scanner;
+public class Ternay1 {
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 6;
+		
+		String res = (a>b)? "a is bigger than b" : "a is smaller than b";
+		System.out.println(res);
+	}
+}

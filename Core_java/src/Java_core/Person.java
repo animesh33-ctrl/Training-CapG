@@ -22,6 +22,16 @@ public static void main(String[] args) {
         System.out.println("Weight: " + weightInKg + " kg");
         System.out.println("Gender: " + gender);
         System.out.println("Student: " + isStudent);
+        
+        int ab = 2147483647;
+        long bc = (long)ab+ab;
+        System.out.println(bc);
+        
+        int c = 5;
+        int d = c++ + ++c + ++c + c++;
+        System.out.println(d);
+        
+        
     }
 
 }
