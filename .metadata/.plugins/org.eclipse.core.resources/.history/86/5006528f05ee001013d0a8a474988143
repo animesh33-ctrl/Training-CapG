@@ -1,0 +1,13 @@
+package Exam;
+
+public class Demo {
+	public static void main(String[] args) {
+		int i=0;
+		do {
+		    if(i==2) break;
+		    System.out.print(i);
+		    i++;
+		} while(true);
+
+	}
+}

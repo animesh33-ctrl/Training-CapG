@@ -1,0 +1,13 @@
+package Exam;
+
+public class Demo {
+	public static void main(String[] args) {
+		char c = 'c';
+		switch(c) {
+		    case 'a': System.out.print("A"); break;
+		    case 'b': System.out.print("B"); break;
+		    default: System.out.print("D");
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+package Methods;
+
+public class Power {
+	private static int power(int b, int p) {
+		if (p == 0)
+			return 1;
+//		System.out.println(b);
+//		System.out.println(p);		
+		return b * power(b, p - 1);
+	}
+
+	public static void main(String[] args) {
+		System.out.println(power(2, 4));
+	}
+}

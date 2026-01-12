@@ -1,0 +1,26 @@
+package MethodAssignment;
+import java.util.Scanner;
+public class StrongNumber {
+//	private static int factorial(int n) {
+//		if(n==0 || n==1) return 1;
+//		return n*factorial(n-1);
+//	}
+	
+	private static final int[] factorial = {  // Precomputed factorials (0! to 9!)  
+	        1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880  
+	    };
+	private static boolean isStrong(int num) {
+		if(num==0) return false;
+		int sum=0,org=num;
+		while(num >0) {
+			sum += factorial[num%10];
+		}
+		return sum==org;
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number : ");
+		System.out.println(isStrong(sc.nextInt()));
+		sc.close();
+	}
+}

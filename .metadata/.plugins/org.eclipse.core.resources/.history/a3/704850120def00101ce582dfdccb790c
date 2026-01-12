@@ -1,0 +1,22 @@
+package MethodAssignment;
+
+import java.util.Scanner;
+
+public class LeapYear {
+	
+	private static boolean isLeapYear(int yr) {
+		return yr%400 == 0 ||(yr%4==0 && yr%100 != 0);
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a year : ");
+		int yr = sc.nextInt();
+		if(isLeapYear(yr))
+		System.out.println("Leap Year");
+		else {
+			System.out.println("Not a Leap Year");
+		}
+		sc.close();
+	}
+}

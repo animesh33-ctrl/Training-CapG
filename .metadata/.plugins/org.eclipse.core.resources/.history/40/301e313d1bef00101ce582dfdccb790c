@@ -1,0 +1,26 @@
+package MethodAssignment;
+
+
+// (sum of first and last digit = middle number sum) ? Zilem : Floyem
+public class ZilemFloyem {
+	private static boolean isZlOrFl(int num) {
+		if (num < 0)
+			return false;
+		if (num >= 0 && num <= 9)
+			return true;
+		int zl = 0, fl = 0;
+		zl += num % 10;
+		num /= 10;
+		while (num >= 10) {
+			fl += num % 10;
+			num /= 10;
+		}
+
+		return (zl + num) == fl;
+	}
+
+	public static void main(String[] args) {
+		int num = 12345;
+		System.out.println(isZlOrFl(num) ? "Zilem" : "Floyem");
+	}
+}

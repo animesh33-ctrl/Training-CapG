@@ -1,0 +1,23 @@
+package MethodAssignment;
+
+public class DecimalToHexadecimal {
+	
+	private static char arr[] = {'A','B','C','D','E','F'};
+	
+	private static int decimalToHexa(int num) {
+		if (num == 0)
+			return 0;
+		StringBuilder str = new StringBuilder();
+		while (num > 0) {
+			int rm = num%16;
+			str.insert(0, (rm>9)?arr[rm-10]:rm);
+			num /= 16;
+		}
+		System.out.println(str);
+		return Integer.parseInt(str.toString());
+	}
+	public static void main(String[] args) {
+		int num = 10;
+		System.out.println(decimalToHexa(num));
+	}
+}

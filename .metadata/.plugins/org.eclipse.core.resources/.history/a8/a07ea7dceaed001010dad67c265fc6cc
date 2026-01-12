@@ -1,0 +1,18 @@
+package Methods;
+
+public class CountDigit {
+	
+	private static int countDigit(int n) {
+		int count = 0;
+		while(n>0) {
+			count++;
+			n/=10;
+		}
+		return count;
+	}
+	
+	public static void main(String[] args) {
+		int n = 1234;
+		System.out.println("Number of digits present in the count : "+countDigit(n));
+	}
+}

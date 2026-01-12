@@ -1,0 +1,40 @@
+package MethodAssignment;
+
+public class BinaryToDecimal {
+
+	private static int power(int b, int p) {
+		if (p == 0)
+			return 1;
+		return b * power(b, p - 1);
+	}
+
+//	public static int binaryToDecimal(String binary) {
+//		int decimal = 0;
+//		int length = binary.length();
+//
+//		for (int i = 0; i < length; i++) {
+//			int digit = binary.charAt(i) - '0';
+//			decimal = decimal * 2 + digit;
+//			System.out.println("Decimal Value : "+decimal+" Digit Value : "+digit);
+//		}
+//
+//		return decimal;
+//	}
+	public static int binaryToDecimal(String binary) {
+		int decimal = 0;
+		int digit = binary.length();
+		for(int i = 0; i < binary.length(); i++,--digit) {
+			int ch = binary.charAt(i)-'0';
+			if(ch==1)
+			decimal += power(2,digit);
+			
+		}
+		return decimal;
+
+	}
+	public static void main(String[] args) {
+		String binary = "1101";
+		int decimal = binaryToDecimal(binary);
+		System.out.println("Decimal value: " + decimal);
+	}
+}

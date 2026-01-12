@@ -1,0 +1,17 @@
+package MethodAssignment;
+
+// 175 = 1^1 + 7^2 + 5^3
+public class DisariumNum {
+	private static int countDigit(int n) {
+		int count = 0;
+		while (n > 0) {
+			count++;
+			n /= 10;
+		}
+		return count;
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

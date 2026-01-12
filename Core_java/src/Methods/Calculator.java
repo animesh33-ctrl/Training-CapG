@@ -1,0 +1,45 @@
+package Methods;
+
+public class Calculator {
+
+	public static int add(int a, int b) {
+		return a + b;
+	}
+
+	public static int sub(int a, int b) {
+		return a - b;
+	}
+
+	public static int mul(int a, int b) {
+		return a * b;
+	}
+
+	public static int div(int a, int b) {
+		return a / b;
+
+	}
+
+	public static void main(String[] args) {
+		int a = 6, b = 3;
+		char ch = '*';
+		int res = 0;
+		switch (ch) {
+		case '+':
+			res = add(a, b);
+			break;
+		case '-':
+			res = sub(a, b);
+			break;
+		case '*':
+			res = mul(a, b);
+			break;
+		case '/':
+			res = div(a, b);
+			break;
+
+		default:
+			System.out.println("Enter right operation");
+		}
+		System.out.println("Result : " + res);
+	}
+}
