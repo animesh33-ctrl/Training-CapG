@@ -3,4 +3,9 @@
     <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
     <fullyQualifiedTypeName name="javax.print.attribute.IntegerSyntax"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ObjectCreation.Employee"/>
+    <fullyQualifiedTypeName name="constructor.Product"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.axes.ChildTestIterator"/>
+    <fullyQualifiedTypeName name="constructor.Chaining"/>
+    <fullyQualifiedTypeName name="Methods.Pattern1"/>
 </qualifiedTypeNameHistroy>

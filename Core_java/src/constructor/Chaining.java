@@ -1,0 +1,18 @@
+package constructor;
+
+public class Chaining {
+	int x;
+	public Chaining() {
+		this(20);
+		System.out.println("Default Constructor!!!!");
+	}
+	public Chaining(int x) {
+		this.x = x;
+		System.out.println("Parametarized Constructor : "+this.x);
+	}
+	
+	@SuppressWarnings({ "unused" })
+	public static void main(String[] args) {
+		Chaining ch = new Chaining();
+	}
+}

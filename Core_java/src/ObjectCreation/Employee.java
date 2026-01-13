@@ -1,0 +1,58 @@
+package ObjectCreation;
+
+import java.util.Scanner;
+
+public class Employee {
+	int id;
+	String name;
+	int salary;
+
+	public void work() {
+		System.out.println(name + " is working");
+	}
+
+	public void printEmployee() {
+		System.out.println(this.name);
+		System.out.println(this.id);
+		System.out.println(this.salary);
+	}
+
+	public void initialize(int id, String name, int salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+//		Employee e1 = new Employee();
+//		Employee e2 = new Employee();
+//
+//		e2.id = 101;
+//		e2.name = "raju";
+//		e2.salary = 5.0;
+//		e2.work();
+//		e1.work();
+
+//		System.out.print("Enter the number of classes : ");
+//		int n = sc.nextInt();
+//		while (n-- > 0) {
+//			Employee e = new Employee();
+//			System.out.print("Enter the name : ");
+//			sc.nextLine();
+//			e.name = sc.nextLine();
+//			System.out.print("Enter the id : ");
+//			e.id = sc.nextInt();
+//			System.out.print("Enter the salary : ");
+//			e.salary = sc.nextInt();
+//			
+//			e.printEmployee();
+//			
+//		}
+		Employee e = new Employee();
+		e.initialize(1, "Animesh", 12000);
+		e.printEmployee();
+
+		sc.close();
+	}
+}

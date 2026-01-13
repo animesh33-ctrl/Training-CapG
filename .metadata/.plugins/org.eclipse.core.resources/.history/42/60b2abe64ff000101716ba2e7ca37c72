@@ -1,0 +1,7 @@
+package ObjectCreation;
+
+public enum Employee {
+	public static void main(String args[]) {
+		
+	}
+}

@@ -1,0 +1,33 @@
+package constructor;
+
+public class Product {
+	int id;
+	String name;
+	int price;
+	float ratings;
+	public Product(int id,String name) {
+		this.id = id;
+		this.name = name;
+	}
+	public Product(int id,String name,int price) {
+		this.id = id;
+		this.name = name;
+		this.price = price;
+	}
+	public Product(int id,String name,int price,float ratings) {
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.ratings = ratings;
+	}
+	
+	void display() {
+		System.out.printf("Id : %d Name : %s Price : %d Ratings : %f",this.id,this.name,this.price,this.ratings);
+	}
+	
+	public static void main(String[] args) {
+		Product p1 = new Product(1,"Aloo");
+		Product p2 = new Product(1,"Aloo",12000);
+		Product p3 = new Product(1,"Aloo",12000,4.5f);
+	}
+}
