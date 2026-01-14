@@ -1,0 +1,27 @@
+package oops.inheritence;
+
+public class Animal {
+	String name;
+	String color;
+	int noOfLegs;
+
+	public void printAnimal() {
+		System.out.println(name);
+		System.out.println(color);
+		System.out.println(noOfLegs);
+	}
+	
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.printAnimal();
+	}
+}
+
+class Dog extends Animal {
+	public Dog() {
+		this.name = "Sahil";
+		this.color = "white";
+		this.noOfLegs = 5;
+	}
+
+}

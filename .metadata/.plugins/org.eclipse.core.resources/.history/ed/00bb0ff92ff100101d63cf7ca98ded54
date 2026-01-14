@@ -1,0 +1,16 @@
+package oops.inheritence;
+
+public class Fruit extends Apple {
+	float price;
+	public Fruit(float price) {
+		super();
+		this.price = price;
+	}
+	
+	public static void main(String[] args) {
+		Fruit f = new Fruit(4.0f);
+		System.out.println(f.color);
+		System.out.println(f.name);
+		System.out.println(f.price);
+	}
+}

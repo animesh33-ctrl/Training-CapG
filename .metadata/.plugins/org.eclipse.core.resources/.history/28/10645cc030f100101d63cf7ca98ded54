@@ -1,0 +1,17 @@
+package oops.inheritence;
+
+public class Apple {
+
+	float price;
+
+	public Apple() {}
+	
+	public Apple(float price) {
+		this.price = price;
+	}
+	
+	public static void main(String[] args) {
+		Apple ap = new Apple(123);
+		System.out.println(ap.price);
+	}
+}

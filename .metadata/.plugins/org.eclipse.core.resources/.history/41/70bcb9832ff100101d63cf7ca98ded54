@@ -1,0 +1,12 @@
+package oops.inheritence;
+
+public class Fruit extends Apple {
+	float price;
+	public Fruit(float price) {
+		this.price = price;
+	}
+	
+	public static void main(String[] args) {
+		Fruit
+	}
+}

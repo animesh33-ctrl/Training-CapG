@@ -1,0 +1,16 @@
+package oops.inheritence;
+
+ public class WhatsApp extends App {
+    // Unique states
+    long phoneNumber;
+    int chats;
+
+    // Unique behaviours
+    void sendMessage(String msg) {
+        System.out.println("Sending message: " + msg);
+    }
+
+    void showChats() {
+        System.out.println("Total chats: " + chats);
+    }
+}

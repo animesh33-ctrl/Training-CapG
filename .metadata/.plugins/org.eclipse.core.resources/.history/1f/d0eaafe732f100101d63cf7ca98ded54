@@ -1,0 +1,23 @@
+package oops.inheritence;
+
+public class App {
+    String appName;
+    double version;
+    int sizeMB;
+
+    // Behaviours (methods)
+    void install() {
+        System.out.println(appName + " is installed.");
+    }
+
+    void update(double newVersion) {
+        version = newVersion;
+        System.out.println("Updated to version " + version);
+    }
+
+    void showInfo() {
+        System.out.println("App Name: " + appName);
+        System.out.println("Version: " + version);
+        System.out.println("Size: " + sizeMB + " MB");
+    }
+}

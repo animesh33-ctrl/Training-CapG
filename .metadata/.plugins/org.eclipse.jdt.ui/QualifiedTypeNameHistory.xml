@@ -8,4 +8,12 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.axes.ChildTestIterator"/>
     <fullyQualifiedTypeName name="constructor.Chaining"/>
     <fullyQualifiedTypeName name="Methods.Pattern1"/>
+    <fullyQualifiedTypeName name="ObjectCreation.HelpLaptop"/>
+    <fullyQualifiedTypeName name="ObjectCreation.BankAccount"/>
+    <fullyQualifiedTypeName name="object_creation.Example"/>
+    <fullyQualifiedTypeName name="oops.Account"/>
+    <fullyQualifiedTypeName name="oops.inheritence.Vehicle"/>
+    <fullyQualifiedTypeName name="oops.inheritence.Dog"/>
+    <fullyQualifiedTypeName name="oops.inheritence.Fruit"/>
+    <fullyQualifiedTypeName name="oops.inheritence.Apple"/>
 </qualifiedTypeNameHistroy>
