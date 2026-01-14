@@ -1,4 +1,4 @@
-package Operator_Assignment;
+package operator_assignment;
 
 public class Q4 {
 	public static void main(String[] args) {

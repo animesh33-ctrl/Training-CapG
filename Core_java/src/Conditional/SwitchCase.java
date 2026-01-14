@@ -1,4 +1,4 @@
-package Conditional;
+package conditional;
 
 public class SwitchCase {
 	public static void main(String[] args) {

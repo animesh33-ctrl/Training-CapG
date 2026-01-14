@@ -1,4 +1,4 @@
-package Operator;
+package operator;
 
 public class Ternary2 {
 	public static void main(String[] args) {

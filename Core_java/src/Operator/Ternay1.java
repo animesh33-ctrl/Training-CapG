@@ -1,4 +1,4 @@
-package Operator;
+package operator;
 
 import java.util.Scanner;
 public class Ternay1 {

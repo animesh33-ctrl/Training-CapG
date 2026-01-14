@@ -1,4 +1,4 @@
-package Conditional;
+package conditional;
 
 public class Calculator {
 	public static void main(String[] args) {

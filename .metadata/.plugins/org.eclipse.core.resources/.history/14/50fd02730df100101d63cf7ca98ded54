@@ -1,0 +1,28 @@
+package ObjectCreation;
+
+public class HelpLaptop {
+	public static Laptop getLaptop(){
+		return new Laptop();
+	}
+	public static Laptop getLaptop(String brand,float price ){
+		return new Laptop(brand,price);
+	}
+	
+	public static Laptop verfyPrice(String brand,float price) {
+		if(brand == "HP") {
+			return (price>10000 && price<500000)?new Laptop(brand,price):null;
+		}
+		else if(brand == "Dell") {
+			return (price>5000 && price<400000)?new Laptop(brand,price):null;
+		}
+		else if(brand == "Asus") {
+			return (price>8000 && price<450000)?new Laptop(brand,price):null;
+		}
+		else if(brand == "Apple Mac") {
+			return (price>30000 && price<600000)?new Laptop(brand,price):null;
+		}
+		else
+			return null;
+	}
+
+}

@@ -1,0 +1,27 @@
+package method_assignment;
+
+import java.util.Scanner;
+
+public class EvenOdd {
+
+	public static boolean isEqual(int num) {
+		if (num == 0)
+			return true;
+		byte count = 0;
+		while (num > 0) {
+			if (num % 2 == 0)
+				count++;
+			else
+				count--;
+			num /= 10;
+		}
+		return count == 0;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number : ");
+		System.out.println(isEqual(sc.nextInt()));
+		sc.close();
+	}
+}

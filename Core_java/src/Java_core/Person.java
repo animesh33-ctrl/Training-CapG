@@ -1,4 +1,4 @@
-package Java_core;
+package java_core;
 
 public class Person {
 	public static void main(String[] args) {

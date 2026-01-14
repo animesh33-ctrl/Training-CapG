@@ -1,4 +1,4 @@
-package Conditional;
+package conditional;
 
 public class Biggestof4 {
 	public static void main(String[] args) {
