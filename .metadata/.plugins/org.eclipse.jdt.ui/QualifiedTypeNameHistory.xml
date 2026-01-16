@@ -16,4 +16,17 @@
     <fullyQualifiedTypeName name="oops.inheritence.Dog"/>
     <fullyQualifiedTypeName name="oops.inheritence.Fruit"/>
     <fullyQualifiedTypeName name="oops.inheritence.Apple"/>
+    <fullyQualifiedTypeName name="oops.inheritence.Vehicle1"/>
+    <fullyQualifiedTypeName name="oops.inheritence.BankAccount"/>
+    <fullyQualifiedTypeName name="oops.inheritence.Vehicle2"/>
+    <fullyQualifiedTypeName name="upcastdowncast.Vehicle2"/>
+    <fullyQualifiedTypeName name="upcastdowncast.Train2"/>
+    <fullyQualifiedTypeName name="supercall.Product"/>
+    <fullyQualifiedTypeName name="supercall.Laptop"/>
+    <fullyQualifiedTypeName name="java.lang.Module"/>
+    <fullyQualifiedTypeName name="supercall.Mobile"/>
+    <fullyQualifiedTypeName name="supercall.Student"/>
+    <fullyQualifiedTypeName name="supercall.Employee"/>
+    <fullyQualifiedTypeName name="relatioship.has_a.Person"/>
+    <fullyQualifiedTypeName name="relatioship.has_a.PanCard"/>
 </qualifiedTypeNameHistroy>
