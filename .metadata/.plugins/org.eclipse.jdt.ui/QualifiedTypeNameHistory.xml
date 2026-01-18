@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
     <fullyQualifiedTypeName name="javax.print.attribute.IntegerSyntax"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ObjectCreation.Employee"/>
@@ -29,4 +28,20 @@
     <fullyQualifiedTypeName name="supercall.Employee"/>
     <fullyQualifiedTypeName name="relatioship.has_a.Person"/>
     <fullyQualifiedTypeName name="relatioship.has_a.PanCard"/>
+    <fullyQualifiedTypeName name="polymorphism.Employee"/>
+    <fullyQualifiedTypeName name="polymorphism.FindMax"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="polymorphism.runtime.MapV3"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="abstraction.Calculator"/>
+    <fullyQualifiedTypeName name="abstraction.CalcChild1"/>
+    <fullyQualifiedTypeName name="abstraction.JuniorDeva"/>
+    <fullyQualifiedTypeName name="oops.abstraction.Redmi3"/>
+    <fullyQualifiedTypeName name="oops.abstraction.Employee"/>
+    <fullyQualifiedTypeName name="oops.abstraction.Template"/>
+    <fullyQualifiedTypeName name="oops.abstraction.Football"/>
+    <fullyQualifiedTypeName name="oops.abstraction.Cricket"/>
+    <fullyQualifiedTypeName name="java.lang.Record"/>
+    <fullyQualifiedTypeName name="oops.abstraction.Rectangle"/>
 </qualifiedTypeNameHistroy>
