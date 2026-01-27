@@ -1,5 +1,5 @@
 package methods;
-import methods.VarArgs;
+
 @SuppressWarnings("unused")
 public class StaticNonStatic {
 	static int a = 10;
