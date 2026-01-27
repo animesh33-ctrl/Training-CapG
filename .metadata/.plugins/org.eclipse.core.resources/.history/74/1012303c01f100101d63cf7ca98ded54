@@ -1,9 +1,0 @@
-package ObjectCreation;
-
-public class HelpLaptop {
-	public static Laptop getLaptop(){
-		return new Laptop();
-	}
-
-	
-}

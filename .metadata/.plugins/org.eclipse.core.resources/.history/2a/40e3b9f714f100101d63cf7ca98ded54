@@ -1,8 +1,0 @@
-package oops;
-
-@SuppressWarnings("unused")
-public class Trainer {
-	private int id;
-	private String name;
-	private String pass;
-}

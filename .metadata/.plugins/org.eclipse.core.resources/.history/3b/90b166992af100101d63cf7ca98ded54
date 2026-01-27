@@ -1,7 +1,0 @@
-package oops.inheritence;
-
-public class Vehicle {
-	String brand;
-	String color;
-	double price;
-}

@@ -1,8 +1,0 @@
-package MethodAssignment;
-
-// 175 = 1^1 + 7^2 + 5^3
-public class DisariumNum {
-	public static void main(String[] args) {
-		
-	}
-}
