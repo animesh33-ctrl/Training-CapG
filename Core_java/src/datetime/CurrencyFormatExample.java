@@ -4,6 +4,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class CurrencyFormatExample {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		double amount = 123456.789;
 
