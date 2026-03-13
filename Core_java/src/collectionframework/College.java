@@ -1,4 +1,4 @@
-//package collectionframework;
+package collectionframework;
 
 interface Sports {
     void play();

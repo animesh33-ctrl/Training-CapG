@@ -24,3 +24,4 @@ public class CurrencyFormatExample {
 		System.out.println("Japan: " + japanFormat.format(amount));
 	}
 }
+
